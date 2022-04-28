@@ -1,0 +1,324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>OBJECT</title>
+</head>
+
+
+
+
+<body>
+<div id="main">
+  
+  <div class="i">
+<img id="img" />
+</div>
+
+<div class="rc">
+<form>
+<h2>Aptech Student Record </h2>
+
+<table>
+
+<tr>
+  <td> <i class="fa fa-id-card" aria-hidden="true" id="icon"></i> <input type="text" name="user" id="ide" placeholder="Student Id" /> </td>
+  </tr> 
+
+<tr>
+<td>  <i class="fa fa-user" aria-hidden="true" id="icon1"></i> <input type="text" name="pass" id="name" placeholder="Student Name"  /> </td>
+</tr> 
+
+<tr>
+<td> <i class="fa fa-birthday-cake" aria-hidden="true" id="icon2"></i>  <input type="text" name="date" id="date" placeholder="Student Birth Date"  /> </td>
+</tr> 
+
+<tr>
+  <td> <i class="fa fa-transgender" aria-hidden="true" id="icon3"></i> <input type="text" name="user" id="gender" placeholder="Student Gender" /> </td>
+  </tr>
+  
+  <tr>
+  <td> <i class="fa fa-flag" aria-hidden="true" id="icon4"></i> <input type="text" name="user" id="nation" placeholder="Student Nationality" /> </td>
+  </tr>
+  
+  <tr>
+  <td> <i class="fa fa-phone" aria-hidden="true" id="icon5"></i> <input type="text" name="user" id="num" placeholder="Student Phone Number" /> </td>
+  </tr>
+  
+  <tr>
+  <td> <i class="fa fa-map-marker" aria-hidden="true" id="icon6"></i> <input type="text" name="user" id="add" placeholder="Student Address" /> </td>
+  </tr>
+
+</table>
+
+
+</form>
+
+</div> <!--rc div--->
+
+<!--Button Series Starting---->
+
+<div id="see">
+<input type="button" name="btn" id="btn1" value="Student 2" onclick="record2()"  />
+<input type="button" name="btn" id="btn2" value="Student 1" onclick="record1()"  />
+<input type="button" name="btn" id="btn3" value="Student 3" onclick="record3()" value=""  />
+<input type="button" name="btn" id="btn4" value="Student 4" onclick="record4()"  />
+<input type="button" name="btn" id="btn5" value="Student 5" onclick="record5()"  />
+<input type="button" name="btn" id="btn6" value="Student 6" onclick="record6()"  />
+<input type="button" name="btn" id="btn7" value="Student 7" onclick="record7()"  />
+<input type="button" name="btn" id="btn8" value="Student 8" onclick="record8()"  />
+<input type="button" name="btn" id="btn9" value="Student 9" onclick="record9()"  />
+<input type="button" name="btn" id="btn10" value="Student 10" onclick="record10()"  />
+</div>
+
+
+<!--Button Series Ending--->
+
+</div> <!--main div--->
+
+
+
+
+
+</body>
+
+
+
+<script>
+
+function record1 ()
+{
+	var std = new Object();
+	
+	std.id = 61030;
+	std.name = "Maya";
+	std.date = "05-13-1995";
+	std.gender = "Female";
+	std.nation = "Hindu";
+	std.num = "0900-78601";
+	std.add = "Mumbai Sector 105";
+	
+	document.getElementById("ide").value = std.id;
+	document.getElementById("name").value = std.name;
+	document.getElementById("date").value = std.date;
+	document.getElementById("gender").value = std.gender;
+	document.getElementById("nation").value = std.nation;
+	document.getElementById("num").value = std.num;
+	document.getElementById("add").value = std.add;
+	document.getElementById("img").src = "maya1.jpg";
+	
+	}
+	
+function record2 ()
+{
+	var std1 = new Object();
+	
+	std1.id = 61050;
+	std1.name = "Zendra";
+	std1.date = "06-05-1996";
+	std1.gender = "Female";
+	std1.nation = "Pakistani";
+	std1.num = "0900-78602";
+	std1.add = "Gulistane Gulab - Sector 101";
+	
+	document.getElementById("ide").value = std1.id;
+	document.getElementById("name").value = std1.name;
+	document.getElementById("date").value = std1.date;
+	document.getElementById("gender").value = std1.gender;
+	document.getElementById("nation").value = std1.nation;
+	document.getElementById("num").value = std1.num;
+	document.getElementById("add").value = std1.add;
+	document.getElementById("img").src = "student_2.jpg";
+}
+
+function record3 ()
+{
+	var std3 = new Object();
+	
+	std3.id = 61051;
+	std3.name = "Asad";
+	std3.date = "06-05-1997";
+	std3.gender = "Male";
+	std3.nation = "Pakistani";
+	std3.num = "0900-78603";
+	std3.add = "Gulistane Sehar - Sector 102";
+	
+	document.getElementById("ide").value = std3.id;
+	document.getElementById("name").value = std3.name;
+	document.getElementById("date").value = std3.date;
+	document.getElementById("gender").value = std3.gender;
+	document.getElementById("nation").value = std3.nation;
+	document.getElementById("num").value = std3.num;
+	document.getElementById("add").value = std3.add;
+	document.getElementById("img").src = "student_3.jpg";
+}
+
+function record4 ()
+{
+	var std4 = new Object();
+	
+	std4.id = 61052;
+	std4.name = "Azmat";
+	std4.date = "06-05-1998";
+	std4.gender = "Male";
+	std4.nation = "Pakistani";
+	std4.num = "0900-78604";
+	std4.add = "Gulistane Gul - Sector 103";
+	
+	document.getElementById("ide").value = std4.id;
+	document.getElementById("name").value = std4.name;
+	document.getElementById("date").value = std4.date;
+	document.getElementById("gender").value = std4.gender;
+	document.getElementById("nation").value = std4.nation;
+	document.getElementById("num").value = std4.num;
+	document.getElementById("add").value = std4.add;
+	document.getElementById("img").src = "student_4.jpg";
+}
+
+function record5 ()
+{
+	var std5 = new Object();
+	
+	std5.id = 61052;
+	std5.name = "Ashraf";
+	std5.date = "03-02-1999";
+	std5.gender = "Male";
+	std5.nation = "Arabi";
+	std5.num = "0901-78605";
+	std5.add = "Gulistane Johar - Sector 104";
+	
+	document.getElementById("ide").value = std5.id;
+	document.getElementById("name").value = std5.name;
+	document.getElementById("date").value = std5.date;
+	document.getElementById("gender").value = std5.gender;
+	document.getElementById("nation").value = std5.nation;
+	document.getElementById("num").value = std5.num;
+	document.getElementById("add").value = std5.add;
+	document.getElementById("img").src = "student_5.jpg";
+}
+
+function record6 ()
+{
+	var std6 = new Object();
+	
+	std6.id = 61055;
+	std6.name = "Asghar";
+	std6.date = "03-03-1992";
+	std6.gender = "Male";
+	std6.nation = "African";
+	std6.num = "0902-78603";
+	std6.add = "Gulistane Darbadar - Sector 104";
+	
+	document.getElementById("ide").value = std6.id;
+	document.getElementById("name").value = std6.name;
+	document.getElementById("date").value = std6.date;
+	document.getElementById("gender").value = std6.gender;
+	document.getElementById("nation").value = std6.nation;
+	document.getElementById("num").value = std6.num;
+	document.getElementById("add").value = std6.add;
+	document.getElementById("img").src = "student_6.jpg";
+}
+
+function record7 ()
+{
+	var std7 = new Object();
+	
+	std7.id = 61055;
+	std7.name = "Asghar";
+	std7.date = "03-03-1992";
+	std7.gender = "Male";
+	std7.nation = "British";
+	std7.num = "0902-78603";
+	std7.add = "Gulistane Darbadar - Sector 104";
+	
+	document.getElementById("ide").value = std7.id;
+	document.getElementById("name").value = std7.name;
+	document.getElementById("date").value = std7.date;
+	document.getElementById("gender").value = std7.gender;
+	document.getElementById("nation").value = std7.nation;
+	document.getElementById("num").value = std7.num;
+	document.getElementById("add").value = std7.add;
+	document.getElementById("img").src = "student_7.jpg";
+}
+
+function record8 ()
+{
+	var std8 = new Object();
+	
+	std8.id = 61044;
+	std8.name = "Azhar";
+	std8.date = "04-05-1991";
+	std8.gender = "Male";
+	std8.nation = "American";
+	std8.num = "0905-78600";
+	std8.add = "Gulistane Phool - Sector 111";
+	
+	document.getElementById("ide").value = std8.id;
+	document.getElementById("name").value = std8.name;
+	document.getElementById("date").value = std8.date;
+	document.getElementById("gender").value = std8.gender;
+	document.getElementById("nation").value = std8.nation;
+	document.getElementById("num").value = std8.num;
+	document.getElementById("add").value = std8.add;
+	document.getElementById("img").src = "student_8.jpg";
+}
+
+function record9 ()
+{
+	var std9 = new Object();
+	
+	std9.id = 61011;
+	std9.name = "Amin";
+	std9.date = "09-08-1990";
+	std9.gender = "Male";
+	std9.nation = "Hindu";
+	std9.num = "0912-78607";
+	std9.add = "Gulistane Safoora - Sector 222";
+	
+	document.getElementById("ide").value = std9.id;
+	document.getElementById("name").value = std9.name;
+	document.getElementById("date").value = std9.date;
+	document.getElementById("gender").value = std9.gender;
+	document.getElementById("nation").value = std9.nation;
+	document.getElementById("num").value = std9.num;
+	document.getElementById("add").value = std9.add;
+	document.getElementById("img").src = "student_9.jpg";
+}
+
+function record10 ()
+{
+	var std10 = new Object();
+	
+	std10.id = 61099;
+	std10.name = "Elizabeth";
+	std10.date = "09-09-2000";
+	std10.gender = "Female";
+	std10.nation = "British";
+	std10.num = "0913-78606";
+	std10.add = "Gulistane Asman - Sector 333";
+	
+	document.getElementById("ide").value = std10.id;
+	document.getElementById("name").value = std10.name;
+	document.getElementById("date").value = std10.date;
+	document.getElementById("gender").value = std10.gender;
+	document.getElementById("nation").value = std10.nation;
+	document.getElementById("num").value = std10.num;
+	document.getElementById("add").value = std10.add;
+	document.getElementById("img").src = "student_10.jpg";
+}
+	
+	
+
+
+
+</script>
+
+
+
+
+
+
+</html>
